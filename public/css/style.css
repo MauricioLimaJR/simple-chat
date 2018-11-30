@@ -1,0 +1,61 @@
+.jumbotron {
+	width: 60%;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #28a745;
+	padding-top: 3%;
+}
+
+.title-div {
+	color: white;
+	font-weight: bold;
+	margin-bottom: 2%;
+}
+
+.chat-field {
+	width: 60%;
+	height: 300px;
+	float: left;
+	background-color: white;
+	border-radius: 7px;
+}
+
+.config-field {
+	width: 35%;
+	float: right;
+	background-color: #246332;
+	border-radius: 7px;
+	margin-left: 5%;
+	padding-top: 2%;
+}
+
+.config-field label {
+	color: white;
+	font-weight: bold;	
+}
+
+.middle-div {
+	text-align: center;
+}
+
+.bottom-div {
+	clear: both;
+}
+
+.bottom-div textarea {
+	width: 50%;
+	float: left;
+}
+
+.bottom-div button {
+	width: 10%;
+	height: auto;
+	float: left;
+	margin-left: 3%;
+}
+
+.bottom-div button:hover {
+	background-color: white;
+}
