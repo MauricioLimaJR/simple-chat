@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="public/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="public/css/style.css">
+	<script type="text/javascript" src="public/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="public/js/controller.js"></script>
 
 	<title>Chat</title>
 </head>
@@ -43,7 +45,7 @@
 		<div class="bottom-div container-fluid">
 			<br>
 			<textarea name="message"></textarea>
-			<button type="button" class="btn btn-default">Enviar</button>
+			<button type="button" class="btn btn-default" onclick="teste()">Enviar</button>
 		</div>
 	</div>
 </body>
