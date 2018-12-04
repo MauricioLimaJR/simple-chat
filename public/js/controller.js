@@ -2,14 +2,14 @@ var teste = function () {
 	$.ajax({
         type: "GET",
         // url: '../../src/test',
-        url: 'src/test.py',
+        url: '../../TcpServerNew.py',
         // async: false,
-        data: {data: 'mauricio'},
+        data: null, 
         success: function (data) {
-        	alert(data);
+        	console.log(data);
         },
         error: function (err) {
-        	alert(err);
+        	alert('deu erro');
         }
     });
 }
