@@ -1,6 +1,6 @@
 import socket
 
-h = open('index.php', 'r')
+h = open('index.html', 'r')
 homepage = h.read()
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
