@@ -22,6 +22,16 @@
 	border-radius: 7px;
 }
 
+#show_messages {
+	align-content: left;
+	text-align: left;
+	height: 100%;
+	overflow-y: scroll;
+	color: green;
+	margin-left: 2%;
+	font-weight: bold;
+}
+
 .config-field {
 	width: 35%;
 	float: right;
